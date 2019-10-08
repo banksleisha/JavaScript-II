@@ -4,6 +4,14 @@
 // that manipulates variables defined in the outer scope.
 // The outer scope can be a parent function, or the top level of the script.
 
+function peas () {
+  let feature = "Mashed Potatoes";
+  function Dinner() {
+    alert(feature);
+  }
+  Dinner();
+}
+peas();
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
